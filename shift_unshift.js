@@ -11,7 +11,7 @@ let a
         pergunta=menu() 
         
         while(pergunta!="S" && pergunta!="s" && pergunta!="N" && pergunta!="n")
-            programa=menu()
+            pergunta=menu()
 // se deixar apenas "menu()" e colocar "S","s","N","n" na primeira vez que entrar no while
 // o programa funcionará normalmente, mas se inserir outros valores, o programa ficará em loop.
 
